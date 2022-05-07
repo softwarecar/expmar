@@ -1,0 +1,308 @@
+/* nabvar */
+.logo-nav-1{
+    min-width: 40px;
+    max-width: 180px;
+    margin-left: 120px !important;
+    margin-top: 3px; 
+    object-fit: cover;
+}
+.logo-1{
+    min-width: 360px;
+    max-width: 90px;
+    margin-left: -30px !important;
+    margin-top: 5px; 
+    object-fit: cover; 
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(36 39 83);
+    min-height: 10px;
+    margin-left: -20px;
+}
+.nav-link{
+    font-size: 17px;
+    text-align: center;
+    color: rgba(36 39 83);
+    padding-left: 16px !important;
+    font-family: leixo;
+    src:url(leixo.ttf);
+}
+.nav-link:hover{
+    color: rgba(222 112 42)!important;
+}
+.navbar-collapse{
+    margin-right: 80px !important;
+}
+.navbar-toggler{  
+    font-size: 20px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.dropdown-menu{
+    border-radius: 10px!important;
+    padding-left: 2px;
+    padding-right: 3px;
+    background-color: rgba(36 39 83);
+}
+.dropdown-toggle{
+    color: rgba(36 39 83) !important;
+}
+.dropdown-item{
+    color: rgba(222 112 42);
+    font-size: 18px;
+    font-family: leixo;
+    src: url(leixo.ttf)
+}
+.dropdown-item:hover{
+    color: rgba(42, 35, 85) !important;
+}
+/* carousel */
+.carousel{
+    margin-top: 2px;
+}
+.d-block{
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+}
+.text-banner{
+   font-size: 28px;
+   cursor: pointer;
+   color: rgba(36 39 83);
+   font-family: leixo;
+   src:url(leixo.ttf);
+}
+.text-banner-pes{
+    font-size: 28px;
+    cursor: pointer;
+    color: rgba(222 112 42);
+    font-family: leixo;
+    src:url(leixo.ttf);
+ }
+ .text-banner-cam{
+    font-size: 28px;
+    cursor: pointer;
+    color: rgba(36 39 83);
+    font-family: leixo;
+    src:url(leixo.ttf);
+ }
+.icons-redes-carousel{
+    font-size: 38px;
+    margin-right: 50px;
+    margin: auto;
+    padding: 2px;
+    cursor: pointer;
+    color: rgba(36 39 83)!important;
+}
+/* productos-servicios productos destacados */
+.title-prod{
+    text-align: center;
+    font-size: 38px;
+    color: rgba(42, 35, 85);
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: -22px;
+    font-family: leixo;
+     src:url(leixo.ttf);
+}
+.title-prod-mariscos{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(42, 35, 85);
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: -22px;
+    font-family: leixo;
+     src:url(leixo.ttf);
+}
+.title-prod-trans{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(42, 35, 85);
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: -22px;
+    font-family: leixo;
+     src:url(leixo.ttf);
+}
+.title-prod-pes{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(42, 35, 85);
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: -22px;
+    font-family: leixo;
+     src:url(leixo.ttf);
+}
+.title-color-prod{
+    color: rgba(222 112 42);
+}
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px;
+}
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s ;
+}
+.portafolio-container:hover img{
+    -moz-transtion: scale(0.9);
+    -webkit-transition: scale(0.9);
+    transform: scale(0.9);
+}
+.portafolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+.text-productos-1{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 6px 5px;
+    background-color: rgba(0,0,0, .20);
+    border: solid 2px rgba(0,0,0, .20);
+    border-radius: 15px;
+    margin-left: 116px;
+    font-family: leixo;
+    src:url(leixo.ttf)
+}
+.text-productos-1:hover{
+    color: rgba(42,35,85);
+}
+.icon-conoce-serv-pro{
+    font-size: 25px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-right: -6px;
+}
+.img-fluid{
+    object-fit: cover;
+    width: 650vh;
+    height:320px;
+}
+/* formulario */
+.contac-box{
+    padding: 2rem;
+}
+.d-block-form{
+    width: 102%;
+    height: 620px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.font-weight-bold{
+    color: white;
+    font-family: leixo;
+    src:url(leixo.ttf);
+    text-align: center;
+}
+.txt-p-q-r{
+    font-size: 18px !important;
+    text-align: center;
+    color: rgb(101, 99, 99) !important;
+    font-family: leixo;
+    src:url(leixo.ttf);
+}
+.btn-outline-dark{
+    border: 2px solid white;
+    background-color: transparent;
+}
+.form-control{
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px  black;
+    padding: 8px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.text-muted{
+    text-align: left;
+}
+.btn{
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    max-width: 10rem; 
+    margin-left: -10px;
+    margin-top: 50px; 
+    font-family: leixo;
+    src:url(leixo.ttf);
+}
+.form-f{
+    font-family: leixo;
+    src:url(leixo.ttf);
+}
+.buton-chek{
+    font-family: leixo;
+    src:url(leixo.ttf);
+}
+/* Footer */
+.bg-gray{
+    background-color: rgb(36 39 83) ;
+}
+.title-n-e{
+    font-family: leixo;
+     src: url(leixo.ttf);  
+     color: rgba(222 112 42);
+     margin-top: -6px;
+}
+.text-foooter{
+    color: white;
+}
+.py-6{
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    margin-top: 8px;
+}
+.text-heading{
+     font-family: leixo;
+     src: url(leixo.ttf);
+     color: rgba(222 112 42);
+}
+.icon-people{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+    font-family: leixo;
+     src: url(leixo.ttf);
+     font-size: 18px;
+}
+.list-unstyled  a{
+    text-decoration: none;
+    color: white;
+    font-family: leixo;
+     src: url(leixo.ttf);
+}
+.list-unstyled  a:hover{
+    text-decoration: underline;
+    color: rgba(222 112 42);
+}
+.mb-4-footer{
+    color: black; 
+}
+.copy-right{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: leixo;
+     src: url(leixo.ttf);
+}
+.icons-footer{
+    font-size: 23px;
+    padding-right: 10px ;
+}
+.certificados{
+    width: 90px;
+}
+
