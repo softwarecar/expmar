@@ -17,13 +17,13 @@
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(36 39 83);
     min-height: 10px;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .nav-link{
-    font-size: 17px;
+    font-size: 23px;
     text-align: center;
     color: rgba(42, 35, 85);
-    padding-left: -30px !important;
+    padding-left: 20px !important;
     font-family: leixo;
     src:url(leixo.ttf);
 }
@@ -67,14 +67,11 @@
     object-fit: cover;
 }
 .text-banner{
-   font-size: 26px;
+   font-size: 34px;
    cursor: pointer;
    color: rgba(42, 35, 85);
    font-family: leixo;
    src:url(leixo.ttf)
-}
-.text-banner:hover{
-    color: rgba(238, 112, 15);
 }
 .icon-conoce{
     font-size: 36px;
@@ -95,38 +92,22 @@
 .mb-4-m{
     color: black !important;
 }
-/* identity manual */
-.slogan{
-    min-width: 280px;
-    max-width: 90px;
-    margin-left:464px !important;
-    margin-top: 5px; 
-    object-fit: cover; 
-    padding: 15px;
-}
-.content{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
-    margin-left: 160px;
-}
-.content .textBox{
-    position: relative;
-    max-width: 900px;
-}
-.content .textBox p {
-    color: black;
-    font-size: 18px;
-    margin-right: -300px;
-    font-family: 'Arial' 'italic';
-    padding: 50px;
-}
+
 /* section-productos-servicios */
 
 .title-prod{
     text-align: center;
-    font-size: 30px;
+    font-size: 34px;
+    color: rgba(42, 35, 85);
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: -22px;
+    font-family: leixo;
+    src:url(leix.ttf);
+}
+.title-prod-prod{
+    text-align: center;
+    font-size: 26px;
     color: rgba(42, 35, 85);
     padding: 30px;
     margin-top: 15px;
@@ -142,7 +123,7 @@
     overflow: hidden;
     margin: 10px 0;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px;
+  
 }
 .portafolio-container img{
     -moz-transition: all 0.8s;
@@ -190,11 +171,16 @@
 .contac-box{
     padding: 2rem;
 }
+.logo-blanco-form{
+    width: 160px;
+    margin-top: 6px;
+}
 .d-block-form{
-    width: 102%;
-    height: 620px;
+    width: 106%;
+    height: 350px;
     object-fit: cover;
     border-radius: 15px;
+    padding-top: 12px;
 }
 .font-weight-bold{
     color: white;
@@ -203,11 +189,12 @@
     text-align: center;
 }
 .txt-p-q-r{
-    font-size: 18px !important;
+    font-size: 22px !important;
     text-align: center;
     color: rgb(101, 99, 99) !important;
     font-family: leixo;
     src:url(leixo.ttf);
+    margin-top: 20px;
 }
 .btn-outline-dark{
     border: 2px solid white;
@@ -253,7 +240,10 @@
      margin-top: -6px;
 }
 .text-foooter{
-    color: white;
+    color: black;
+    font-family: leixo;
+     src: url(leixo.ttf);
+     font-size: 20px;
 }
 .py-6{
     padding-top: 1rem;
@@ -278,7 +268,7 @@
 }
 .list-unstyled  a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: leixo;
      src: url(leixo.ttf);
 }
@@ -301,5 +291,5 @@
     padding-right: 10px ;
 }
 .certificados{
-    width: 90px;
+    width: 80px;
 }

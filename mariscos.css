@@ -17,13 +17,13 @@
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(36 39 83);
     min-height: 10px;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .nav-link{
-    font-size: 17px;
+    font-size: 23px;
     text-align: center;
     color: rgba(36 39 83);
-    padding-left: -30px !important;
+    padding-left: 20px !important;
     font-family: leixo;
     src: url(leixo.ttf)
 }
@@ -71,9 +71,6 @@
    cursor: pointer;
    color: rgba(42, 35, 85);
 }
-.text-banner:hover{
-    color: rgba(238, 112, 15);
-}
 .icons-redes-carousel{
     font-size: 38px;
     margin-right: 50px;
@@ -82,33 +79,23 @@
     cursor: pointer;
     color: rgba(42, 35, 85)!important;
 }
-
-/* text-aportes-nutritivos */
-.d-block-mariscos{
-    width: 100%;
-    height:800px;
-    object-fit: cover;
-    margin-top: 26px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 16px 2px;
-}
-.font-weight-bold{
-    font-family: leixo;
-    src: url(leixo.ttf);
-    margin-top: 18px;
-}
-.txt-mariscos{
-    font-family: leixo;
-    src: url(leixo.ttf);
-    font-size: 20px;
-    text-align: justify;
-}
 /* section-productos-servicios */
 .title-prod{
+    text-align: center;
+    font-size: 34px;
+    color: rgba(42, 35, 85);
+    padding: 10px;
+    font-family: leixo;
+    src:url(leixo.ttf);
+}
+.title-prod-prod{
     text-align: center;
     font-size: 26px;
     color: rgba(42, 35, 85);
     padding: 10px;
+    font-family: leixo;
+    src:url(leixo.ttf);
+
 }
 .title-color-prod{
     color: rgba(238, 112, 15);
@@ -118,7 +105,7 @@
     overflow: hidden;
     margin: 10px 0;
     border-radius: 10px;
-    box-shadow: 5px 5px 8px;
+   
 }
 .portafolio-container img{
     -moz-transition: all 0.8s;
@@ -127,9 +114,9 @@
 
 }
 .portafolio-container:hover img{
-    -moz-transtion: scale(1.2);
-    -webkit-transition: scale(1.2);
-    transform: scale(1.2);
+    -moz-transtion: scale(0.9);
+    -webkit-transition: scale(0.9);
+    transform: scale(0.9);
 }
 .portafolio-details{
     position: absolute;
@@ -172,7 +159,8 @@
      color: rgba(222 112 42);
 }
 .text-foooter{
-    color: white;
+    color: black;
+    font-size: 20px;
 }
 .py-6{
     padding-top: 1rem;
@@ -198,7 +186,7 @@
 }
 .list-unstyled  a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: leixo;
      src: url(leixo.ttf);
 }
@@ -223,5 +211,5 @@
     color: white;
 }
 .certificados{
-    width: 90px;
+    width: 80px;
 }

@@ -3,8 +3,7 @@
     min-width: 40px;
     max-width: 180px;
     margin-left: 120px !important;
-    margin-top: 3px; 
-    object-fit: cover;
+    margin-top: 3px;  
 }
 .logo-1{
     min-width: 360px;
@@ -17,13 +16,13 @@
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(36 39 83);
     min-height: 10px;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .nav-link{
-    font-size: 17px;
+    font-size: 23px;
     text-align: center;
     color: rgba(42, 35, 85);
-    padding-left: -30px !important;
+    padding-left: 20px !important;
     font-family: leixo;
     src:url(leixo.ttf);
 }
@@ -79,7 +78,10 @@
      margin-top: -6px;
 }
 .text-foooter{
-    color: white;
+    color: black;
+    font-family: leixo;
+    src:url(leixo.ttf);
+    font-size: 20px;
 }
 .py-6{
     padding-top: 1rem;
@@ -107,6 +109,7 @@
     color: white;
     font-family: leixo;
      src: url(leixo.ttf);
+     color: black;
 }
 .list-unstyled  a:hover{
     text-decoration: underline;
@@ -127,6 +130,6 @@
     padding-right: 10px ;
 }
 .certificados{
-    width: 90px;
+    width: 80px;
 }
 

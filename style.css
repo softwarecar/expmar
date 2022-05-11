@@ -2,9 +2,8 @@
 .logo-nav-1{
     min-width: 40px;
     max-width: 180px;
-    margin-left: 120px !important;
-    margin-top: 3px; 
-    object-fit: cover;
+    margin-left: 120px;
+    margin-top: 3px;
 }
 .logo-1{
     min-width: 360px;
@@ -17,13 +16,13 @@
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(36 39 83);
     min-height: 10px;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .nav-link{
-    font-size: 17px;
+    font-size: 23px;
     text-align: center;
     color: rgba(36 39 83);
-    padding-left: 16px !important;
+    padding-left: 20px !important;
     font-family: leixo;
     src:url(leixo.ttf);
 }
@@ -44,6 +43,8 @@
     padding-left: 2px;
     padding-right: 3px;
     background-color: rgba(36 39 83);
+    text-align: right;
+    
 }
 .dropdown-toggle{
     color: rgba(36 39 83) !important;
@@ -52,7 +53,8 @@
     color: rgba(222 112 42);
     font-size: 18px;
     font-family: leixo;
-    src: url(leixo.ttf)
+    src: url(leixo.ttf);
+    text-align: center;
 }
 .dropdown-item:hover{
     color: rgba(42, 35, 85) !important;
@@ -62,27 +64,25 @@
     margin-top: 2px;
 }
 .d-block{
-    width: 100%;
-    height: 680px;
+    width: 200%;
+    height: 620px;
     object-fit: cover;
+    border-radius: 20px;
 }
 .text-banner{
-   font-size: 28px;
-   cursor: pointer;
+   font-size: 26px;
    color: rgba(36 39 83);
    font-family: leixo;
    src:url(leixo.ttf);
 }
 .text-banner-pes{
     font-size: 28px;
-    cursor: pointer;
     color: rgba(222 112 42);
     font-family: leixo;
     src:url(leixo.ttf);
  }
  .text-banner-cam{
     font-size: 28px;
-    cursor: pointer;
     color: rgba(36 39 83);
     font-family: leixo;
     src:url(leixo.ttf);
@@ -98,7 +98,17 @@
 /* productos-servicios productos destacados */
 .title-prod{
     text-align: center;
-    font-size: 38px;
+    font-size: 34px;
+    color: rgba(42, 35, 85);
+    padding: 30px;
+    margin-top: 15px;
+    margin-right: -22px;
+    font-family: leixo;
+     src:url(leixo.ttf);
+}
+.title-prod-prod{
+    text-align: center;
+    font-size: 24px;
     color: rgba(42, 35, 85);
     padding: 30px;
     margin-top: 15px;
@@ -108,7 +118,7 @@
 }
 .title-prod-mariscos{
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     color: rgba(42, 35, 85);
     padding: 30px;
     margin-top: 15px;
@@ -118,7 +128,7 @@
 }
 .title-prod-trans{
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     color: rgba(42, 35, 85);
     padding: 30px;
     margin-top: 15px;
@@ -128,7 +138,7 @@
 }
 .title-prod-pes{
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     color: rgba(42, 35, 85);
     padding: 30px;
     margin-top: 15px;
@@ -138,13 +148,14 @@
 }
 .title-color-prod{
     color: rgba(222 112 42);
+    font-size: 36px;
 }
 .portafolio-container{
     position: relative;
     overflow: hidden;
     margin: 10px 0;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px;
+    border-radius: 10px !important;
+  
 }
 .portafolio-container img{
     -moz-transition: all 0.8s;
@@ -172,7 +183,9 @@
     border-radius: 15px;
     margin-left: 116px;
     font-family: leixo;
-    src:url(leixo.ttf)
+    src:url(leixo.ttf);
+    z-index: 0;
+    
 }
 .text-productos-1:hover{
     color: rgba(42,35,85);
@@ -193,10 +206,11 @@
     padding: 2rem;
 }
 .d-block-form{
-    width: 102%;
-    height: 620px;
+    width: 106%;
+    height: 350px;
     object-fit: cover;
     border-radius: 15px;
+    padding-top: 12px;
 }
 .font-weight-bold{
     color: white;
@@ -204,12 +218,16 @@
     src:url(leixo.ttf);
     text-align: center;
 }
+.logo-blanco-form{
+    width: 160px;
+}
 .txt-p-q-r{
-    font-size: 18px !important;
+    font-size: 22px !important;
     text-align: center;
     color: rgb(101, 99, 99) !important;
     font-family: leixo;
     src:url(leixo.ttf);
+    margin-top: 20px;
 }
 .btn-outline-dark{
     border: 2px solid white;
@@ -227,12 +245,12 @@
     text-align: left;
 }
 .btn{
-    font-weight: 400;
-    padding: 1rem 2rem;
+    font-weight: 200;
+    padding: 1rem 1rem;
     border-radius: 5rem;
-    max-width: 10rem; 
+    max-width: 7rem; 
     margin-left: -10px;
-    margin-top: 50px; 
+    margin-top: 30px; 
     font-family: leixo;
     src:url(leixo.ttf);
 }
@@ -243,10 +261,14 @@
 .buton-chek{
     font-family: leixo;
     src:url(leixo.ttf);
+    margin-top: -40px;
 }
 /* Footer */
 .bg-gray{
     background-color: rgb(36 39 83) ;
+}
+.text-para{
+    color: black;
 }
 .title-n-e{
     font-family: leixo;
@@ -255,7 +277,8 @@
      margin-top: -6px;
 }
 .text-foooter{
-    color: white;
+    color: black;
+    font-size: 20px;
 }
 .py-6{
     padding-top: 1rem;
@@ -303,6 +326,6 @@
     padding-right: 10px ;
 }
 .certificados{
-    width: 90px;
+    width: 80px;
 }
 
