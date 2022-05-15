@@ -169,11 +169,7 @@
 }
 /* formulario */
 .contac-box{
-    padding: 2rem;
-}
-.logo-blanco-form{
-    width: 160px;
-    margin-top: 6px;
+    padding: rem;
 }
 .d-block-form{
     width: 106%;
@@ -187,6 +183,9 @@
     font-family: leixo;
     src:url(leixo.ttf);
     text-align: center;
+}
+.logo-blanco-form{
+    width: 160px;
 }
 .txt-p-q-r{
     font-size: 22px !important;
@@ -212,12 +211,12 @@
     text-align: left;
 }
 .btn{
-    font-weight: 400;
-    padding: 1rem 2rem;
+    font-weight: 200;
+    padding: 20;
     border-radius: 5rem;
-    max-width: 10rem; 
+    max-width: 7rem; 
     margin-left: -10px;
-    margin-top: 50px; 
+    margin-top: -10px; 
     font-family: leixo;
     src:url(leixo.ttf);
 }
@@ -228,6 +227,7 @@
 .buton-chek{
     font-family: leixo;
     src:url(leixo.ttf);
+    margin-top: -40px;
 }
 /* Footer */
 .bg-gray{
@@ -292,4 +292,137 @@
 }
 .certificados{
     width: 80px;
+}
+@media screen and (min-width:320px){
+    .logo-1{
+        width: 290px;
+        margin-left: -60px !important;
+    }
+    .icon-menu{
+        font-size: 22px;
+    }
+    .navbar-collapse{
+        margin-left: 116px;
+    }
+    .slogan{
+        margin-left: 4px !important;
+    }
+    .d-block-nosotros{
+        height: 280px;
+    }
+    .font-weight-bold{
+        padding: 5px;
+        margin-top: 12px;
+    }
+    .d-block-form{
+        width: 130%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 15px;
+        padding-top: 12px;
+    }
+    .logo-blanco-form{
+        width: 140px;
+        margin-left: -1px !important;
+        margin-top: 16px;
+    }
+    .d-block-form{
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 15px;
+        padding-top: 12px;
+    }
+    .title-prod{
+        text-align: center;
+        font-size: 30px;
+        color: rgba(42, 35, 85);
+        padding: 10px;
+        margin-top: 15px;
+        margin-right: -18px;
+        font-family: leixo;
+        src:url(leixo.ttf);
+    }
+    .title-prod-mariscos{
+        text-align: center;
+        font-size: 28px;
+        color: rgba(42, 35, 85);
+        padding: 30px;
+        margin-top: 15px;
+        margin-right: -22px;
+        font-family: leixo;
+         src:url(leixo.ttf);
+    }
+    .certificados{
+        width: 100px;
+    }
+    .text-foooter{
+        text-align: left;
+    }
+    .btn{
+        padding: 8px;
+        margin-top: 8px;
+    }
+   
+}
+@media screen and (max-width:640px){
+    .logo-1{
+        min-width: 240px;
+        margin-left: -60px !important;
+    }
+    .slogan{
+        margin-left: -4px;
+    }
+    .icon-menu{
+        font-size: 24px;
+    }
+    .dropdown-item{
+        text-align: center;
+    }
+    .d-block-form{
+        width: 130%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 15px;
+        padding-top: 12px;
+    }
+    .logo-blanco-form{
+        width: 140px;
+        margin-left: 130px;
+        margin-top: 16px;
+    }
+    .d-block-form{
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 15px;
+        padding-top: 12px;
+    }
+    .title-prod{
+        text-align: center;
+        font-size: 30px;
+        color: rgba(42, 35, 85);
+        padding: 10px;
+        margin-top: 15px;
+        margin-right: -18px;
+        font-family: leixo;
+        src:url(leixo.ttf);
+    }
+    .title-prod-mariscos{
+        text-align: center;
+        font-size: 28px;
+        color: rgba(42, 35, 85);
+        padding: 30px;
+        margin-top: 15px;
+        margin-right: -22px;
+        font-family: leixo;
+         src:url(leixo.ttf);
+    }
+    .certificados{
+        width: 100px;
+    }
+    .text-foooter{
+        text-align: left;
+    }
+   
 }
